@@ -2,7 +2,7 @@
 
 ![noCAPTCHA](https://user-images.githubusercontent.com/107953645/220710591-6d90e09d-d268-415f-a1b0-3724c399720a.gif)
 
-This is a script designed for solving a specific kind of CAPTCHA called [geetest](https://www.geetest.com/en/demo).
+RCR_V3.py is a script designed for solving a specific kind of CAPTCHA called [geetest](https://www.geetest.com/en/demo).
 
 Geetest is a smart type of CAPTCHA that analyses users' behavior and decides how to proceed.
 
