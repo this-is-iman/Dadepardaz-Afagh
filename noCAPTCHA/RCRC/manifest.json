@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "RCRC",
+  "description": "RCR Companion",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon128.png"
+  },
+  "commands": {
+    "A" : {
+        "suggested_key": {
+             "default": "Alt+Shift+X" 
+        },
+        "description": "Stage 1"
+    },
+    "B": {
+        "suggested_key": {
+            "default": "Alt+Shift+Y"
+        },
+        "description": "Stage 2"
+    },
+    "C": {
+        "suggested_key": {
+            "default": "Alt+Shift+Z"
+        },
+        "description": "Stage 3"
+    }
+  },
+  "permissions": [
+   "activeTab"
+   ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}
